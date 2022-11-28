@@ -35,6 +35,10 @@ need to enable text selection in Quick Look by running the following in Terminal
 defaults write com.apple.finder QLEnableTextSelection -bool TRUE; killall Finder
 ````
 
+## TODO
+
+ * https://github.com/Nyx0uf/qlImageSize
+
 ## License
 
 This code is distributed under the terms and conditions of the MIT license.

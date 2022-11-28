@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 100;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		292616C32934E0900021935A /* ql.sh in Resources */ = {isa = PBXBuildFile; fileRef = 292616C22934E0900021935A /* ql.sh */; };
+		292616C42934E0900021935D /* PreviewProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 292616C22934E0900021935C /* PreviewProvider.m */; };
+		29418C5228926CFD006C2475 /* QLJava.appex in CopyFiles */ = {isa = PBXBuildFile; fileRef = D71CE7A21B008D4C00D8A35F /* QLJava.appex */; };
+		29536645288C27B400A6E9A1 /* Tumble.png in Resources */ = {isa = PBXBuildFile; fileRef = 29536644288C27B400A6E9A1 /* Tumble.png */; };
+		29B62A07293B973C0099E8D0 /* logging.properties in Resources */ = {isa = PBXBuildFile; fileRef = 29B62A06293B973C0099E8D0 /* logging.properties */; };
+		29C0FFEE2934E0900021936B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29C0FFEE2934E09000219368 /* main.m */; };
+		29C0FFEE2934E0900021936C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 29C0FFEE2934E0900021936A /* AppDelegate.m */; };
+		29C0FFEE2934E0900021936D /* QLJava.appex in CopyFiles */ = {isa = PBXBuildFile; fileRef = D71CE7A21B008D4C00D8A35F /* QLJava.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		29E290952B5163DD0091A49E /* qlt.sh in Resources */ = {isa = PBXBuildFile; fileRef = 29E290942B5163DD0091A49E /* qlt.sh */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		29C0FFEE2934E09000219362 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D71CE7991B008D4C00D8A35F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D71CE7A11B008D4C00D8A35F;
+			remoteInfo = QLJava;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		29418C5128926C40006C2475 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			dstPath = /Users/nsano/Library/QuickLook;
+			dstSubfolder = None;
+			files = (
+				29418C5228926CFD006C2475 /* QLJava.appex in CopyFiles */,
+			);
+		};
+		29C0FFEE2934E09000219366 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			dstPath = "";
+			dstSubfolder = PlugIns;
+			files = (
+				29C0FFEE2934E0900021936D /* QLJava.appex in CopyFiles */,
+			);
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		292616C22934E0900021935A /* ql.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = ql.sh; sourceTree = "<group>"; };
+		292616C22934E0900021935B /* PreviewProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreviewProvider.h; sourceTree = "<group>"; };
+		292616C22934E0900021935C /* PreviewProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreviewProvider.m; sourceTree = "<group>"; };
+		29536644288C27B400A6E9A1 /* Tumble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tumble.png; sourceTree = "<group>"; };
+		29B62A06293B973C0099E8D0 /* logging.properties */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = logging.properties; sourceTree = "<group>"; };
+		29C0FFEE2934E09000219367 /* QLJavaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QLJavaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		29C0FFEE2934E09000219368 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = QLJavaApp/main.m; sourceTree = "<group>"; };
+		29C0FFEE2934E09000219369 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = QLJavaApp/AppDelegate.h; sourceTree = "<group>"; };
+		29C0FFEE2934E0900021936A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = QLJavaApp/AppDelegate.m; sourceTree = "<group>"; };
+		29C0FFEE2934E0900021936E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = QLJavaApp/Info.plist; sourceTree = "<group>"; };
+		29E290942B5163DD0091A49E /* qlt.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = qlt.sh; sourceTree = "<group>"; };
+		D71CE7A21B008D4C00D8A35F /* QLJava.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = QLJava.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		D71CE7A61B008D4C00D8A35F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29C0FFEE2934E09000219364 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		D71CE79E1B008D4C00D8A35F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29C0FFEE2934E09000219371 /* QLJava */ = {
+			isa = PBXGroup;
+			children = (
+				29C0FFEE2934E09000219369 /* AppDelegate.h */,
+				29C0FFEE2934E0900021936A /* AppDelegate.m */,
+				29C0FFEE2934E09000219368 /* main.m */,
+				29C0FFEE2934E0900021936E /* Info.plist */,
+			);
+			path = QLJava;
+			sourceTree = "<group>";
+		};
+		D71CE7981B008D4C00D8A35F = {
+			isa = PBXGroup;
+			children = (
+				D71CE7A41B008D4C00D8A35F /* QLJava */,
+				29C0FFEE2934E09000219371 /* QLJava */,
+				D71CE7A31B008D4C00D8A35F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D71CE7A31B008D4C00D8A35F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D71CE7A21B008D4C00D8A35F /* QLJava.appex */,
+				29C0FFEE2934E09000219367 /* QLJavaApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D71CE7A41B008D4C00D8A35F /* QLJava */ = {
+			isa = PBXGroup;
+			children = (
+				292616C22934E0900021935B /* PreviewProvider.h */,
+				292616C22934E0900021935C /* PreviewProvider.m */,
+				D71CE8341B00A4F400D8A35F /* IconAssets */,
+				D71CE7A51B008D4C00D8A35F /* Supporting Files */,
+				292616C22934E0900021935A /* ql.sh */,
+				29E290942B5163DD0091A49E /* qlt.sh */,
+				29B62A06293B973C0099E8D0 /* logging.properties */,
+			);
+			path = QLJava;
+			sourceTree = "<group>";
+		};
+		D71CE7A51B008D4C00D8A35F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D71CE7A61B008D4C00D8A35F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D71CE8341B00A4F400D8A35F /* IconAssets */ = {
+			isa = PBXGroup;
+			children = (
+				29536644288C27B400A6E9A1 /* Tumble.png */,
+			);
+			path = IconAssets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D71CE79F1B008D4C00D8A35F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			files = (
+			);
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		29C0FFEE2934E0900021935D /* QLJavaApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29C0FFEE2934E0900021935E /* Build configuration list for PBXNativeTarget "QLJavaApp" */;
+			buildPhases = (
+				29C0FFEE2934E09000219363 /* Sources */,
+				29C0FFEE2934E09000219364 /* Frameworks */,
+				29C0FFEE2934E09000219365 /* Resources */,
+				29C0FFEE2934E09000219366 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29C0FFEE2934E09000219361 /* PBXTargetDependency */,
+			);
+			name = QLJavaApp;
+			productName = QLJavaApp;
+			productReference = 29C0FFEE2934E09000219367 /* QLJavaApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D71CE7A11B008D4C00D8A35F /* QLJava */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D71CE7AF1B008D4C00D8A35F /* Build configuration list for PBXNativeTarget "QLJava" */;
+			buildPhases = (
+				D71CE79D1B008D4C00D8A35F /* Sources */,
+				D71CE79E1B008D4C00D8A35F /* Frameworks */,
+				D71CE79F1B008D4C00D8A35F /* Headers */,
+				D71CE7A01B008D4C00D8A35F /* Resources */,
+				29418C5128926C40006C2475 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			name = QLJava;
+			productName = QLSwift;
+			productReference = D71CE7A21B008D4C00D8A35F /* QLJava.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D71CE7991B008D4C00D8A35F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2650;
+				ORGANIZATIONNAME = vavi;
+				TargetAttributes = {
+					D71CE7A11B008D4C00D8A35F = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+				};
+			};
+			buildConfigurationList = D71CE79C1B008D4C00D8A35F /* Build configuration list for PBXProject "QLJava" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D71CE7981B008D4C00D8A35F;
+			preferredProjectObjectVersion = 100;
+			productRefGroup = D71CE7A31B008D4C00D8A35F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D71CE7A11B008D4C00D8A35F /* QLJava */,
+				29C0FFEE2934E0900021935D /* QLJavaApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29C0FFEE2934E09000219365 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		D71CE7A01B008D4C00D8A35F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+				29E290952B5163DD0091A49E /* qlt.sh in Resources */,
+				29B62A07293B973C0099E8D0 /* logging.properties in Resources */,
+				29536645288C27B400A6E9A1 /* Tumble.png in Resources */,
+				292616C32934E0900021935A /* ql.sh in Resources */,
+			);
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29C0FFEE2934E09000219363 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+				29C0FFEE2934E0900021936B /* main.m in Sources */,
+				29C0FFEE2934E0900021936C /* AppDelegate.m in Sources */,
+			);
+		};
+		D71CE79D1B008D4C00D8A35F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+				292616C42934E0900021935D /* PreviewProvider.m in Sources */,
+			);
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		29C0FFEE2934E09000219361 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D71CE7A11B008D4C00D8A35F /* QLJava */;
+			targetProxy = 29C0FFEE2934E09000219362 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		29C0FFEE2934E0900021935F /* Debug configuration for PBXNativeTarget "QLJavaApp" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = QLJava/QLJavaApp/Info.plist;
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MARKETING_VERSION = 0.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vavi.QLJava;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		29C0FFEE2934E09000219360 /* Release configuration for PBXNativeTarget "QLJavaApp" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = QLJava/QLJavaApp/Info.plist;
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MARKETING_VERSION = 0.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vavi.QLJava;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D71CE7AD1B008D4C00D8A35F /* Debug configuration for PBXProject "QLJava" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = XK6UH5VAC9;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu89;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+			};
+			name = Debug;
+		};
+		D71CE7AE1B008D4C00D8A35F /* Release configuration for PBXProject "QLJava" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = XK6UH5VAC9;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu89;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+			};
+			name = Release;
+		};
+		D71CE7B01B008D4C00D8A35F /* Debug configuration for PBXNativeTarget "QLJava" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = QLJava/QLJava.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = YES;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = QLJava/Info.plist;
+				INSTALL_PATH = "~/Library/QuickLook";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Java/JavaVirtualMachines/jdk1.8.0_341.jdk/Contents/Home/jre/lib",
+					"$(LOCAL_LIBRARY_DIR)/Java/JavaVirtualMachines/jdk1.8.0_341.jdk/Contents/Home/jre/lib/server",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 0.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vavi.QLJava.Preview;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				WRAPPER_EXTENSION = appex;
+			};
+			name = Debug;
+		};
+		D71CE7B11B008D4C00D8A35F /* Release configuration for PBXNativeTarget "QLJava" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = QLJava/QLJava.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = YES;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = QLJava/Info.plist;
+				INSTALL_PATH = "~/Library/QuickLook";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Java/JavaVirtualMachines/jdk1.8.0_341.jdk/Contents/Home/jre/lib",
+					"$(LOCAL_LIBRARY_DIR)/Java/JavaVirtualMachines/jdk1.8.0_341.jdk/Contents/Home/jre/lib/server",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 0.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vavi.QLJava.Preview;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				WRAPPER_EXTENSION = appex;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29C0FFEE2934E0900021935E /* Build configuration list for PBXNativeTarget "QLJavaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29C0FFEE2934E0900021935F /* Debug configuration for PBXNativeTarget "QLJavaApp" */,
+				29C0FFEE2934E09000219360 /* Release configuration for PBXNativeTarget "QLJavaApp" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		D71CE79C1B008D4C00D8A35F /* Build configuration list for PBXProject "QLJava" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D71CE7AD1B008D4C00D8A35F /* Debug configuration for PBXProject "QLJava" */,
+				D71CE7AE1B008D4C00D8A35F /* Release configuration for PBXProject "QLJava" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		D71CE7AF1B008D4C00D8A35F /* Build configuration list for PBXNativeTarget "QLJava" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D71CE7B01B008D4C00D8A35F /* Debug configuration for PBXNativeTarget "QLJava" */,
+				D71CE7B11B008D4C00D8A35F /* Release configuration for PBXNativeTarget "QLJava" */,
+			);
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D71CE7991B008D4C00D8A35F /* Project object */;
+}
