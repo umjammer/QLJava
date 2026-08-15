@@ -1,24 +1,23 @@
 #!/usr/bin/env zsh -f
 
 export PATH="/opt/homebrew/bin:/usr/local/bin:$PATH"
+export MAVEN_OPTS="-Djansi.passthrough=true -Dstyle.color=never $MAVEN_OPTS"
 
 MY_HOME=/Users/nsano
+export HOME="${MY_HOME}"
 
 case "$1" in
   *.lzh | *.LZH | *.arj | *.ARJ | *.cab | *.CAB | *.asar | *.d88 | *.D88 )
-    echo "<style>table{display: flex; flex-direction: column; border-collapse: separate; border-spacing: 50px 0} th,td{font-size:small; overflow: auto} td:nth-child(1){flex-grow: 1} td:nth-child(2){flex-basis: 15%; max-width: 15%} td:nth-child(3){flex-basis: 10%; max-width: 10%}</style>"
-    echo "<body style='color:#66FF00;background-color:black'>"
-    echo "<pre style='font-family:monaco'>"
+    echo "<!DOCTYPE html><html><head><meta charset='utf-8'><style>body{color:#66FF00;background-color:black;font-family:Monaco,monospace;font-size:12px;margin:12px} table{border-collapse:collapse;width:100%} th,td{text-align:left;padding:3px 12px;white-space:nowrap} th{border-bottom:1px solid #66FF00}</style></head><body>"
     ${MY_HOME}/bin/vavi_util_archive "$1" "$2"
-    echo "</pre>"
-    echo "</body>"
+    echo "</body></html>"
     ;;
   *.chd | *.CHD )
-    echo "<body style='color:#66FF00;background-color:black'>"
-    echo "<pre style='font-family:monaco;font-size:small'>"
+    echo "<!DOCTYPE html><html><head><meta charset='utf-8'><style>body{color:#66FF00;background-color:black;font-family:Monaco,monospace;font-size:12px;margin:12px}</style></head><body>"
+    echo "<pre style='font-family:Monaco,monospace;font-size:12px'>"
     ${MY_HOME}/bin/chdman info -v -i "$1"
     echo "</pre>"
-    echo "</body>"
+    echo "</body></html>"
     ;;
   *.wmf | *.WMF | *.emf | *.EMF )
     echo "<body>"

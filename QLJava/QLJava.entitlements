@@ -18,11 +18,15 @@
 		<string>(allow process-exec (subpath &quot;/Users/nsano&quot;))</string>
 		<string>(allow process-fork)</string>
 		<string>(allow file-read* (subpath &quot;/&quot;))</string>
-		<string>(allow file-write* (literal &quot;/private/tmp/qljava.log&quot;))</string>
+		<string>(allow file-write* (subpath &quot;/Users/nsano&quot;))</string>
+		<string>(allow file-write* (subpath &quot;/private/tmp&quot;))</string>
+		<string>(allow file-write* (subpath &quot;/private/var&quot;))</string>
 	</array>
 	<key>com.apple.security.temporary-exception.files.absolute-path.read-write</key>
 	<array>
-		<string>/private/tmp/qljava.log</string>
+		<string>/Users/nsano</string>
+		<string>/private/tmp</string>
+		<string>/private/var</string>
 	</array>
 </dict>
 </plist>

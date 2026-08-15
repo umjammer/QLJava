@@ -26,6 +26,9 @@
 			<true/>
 			<key>QLSupportedContentTypes</key>
 			<array>
+				<string>com.microsoft.wmf</string>
+				<string>com.microsoft.windows-metafile</string>
+				<string>dyn.ah62d4rv4ge81s5pg</string>
 				<string>dyn.ah62d4rv4ge80g4de</string>
 				<string>cx.c3.lha-archive</string>
 				<string>cx.c3.arj-archive</string>
@@ -33,7 +36,6 @@
 				<string>dyn.ah62d4rv4ge80ksb2</string>
 				<string>dyn.ah62d4rv4ge80c65bsk</string>
 				<string>org.mame.chd</string>
-				<string>com.microsoft.wmf</string>
 			</array>
 			<key>QLSupportsSearchableItems</key>
 			<true/>

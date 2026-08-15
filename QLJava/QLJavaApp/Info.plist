@@ -36,6 +36,9 @@
 				<key>public.filename-extension</key>
 				<array>
 					<string>wmf</string>
+					<string>WMF</string>
+					<string>emf</string>
+					<string>EMF</string>
 				</array>
 			</dict>
 		</dict>
@@ -55,6 +58,7 @@
 				<key>public.filename-extension</key>
 				<array>
 					<string>chd</string>
+					<string>CHD</string>
 				</array>
 			</dict>
 		</dict>
@@ -72,7 +76,9 @@
 				<key>public.filename-extension</key>
 				<array>
 					<string>lha</string>
+					<string>LHA</string>
 					<string>lzh</string>
+					<string>LZH</string>
 				</array>
 			</dict>
 		</dict>
@@ -90,6 +96,7 @@
 				<key>public.filename-extension</key>
 				<array>
 					<string>arj</string>
+					<string>ARJ</string>
 				</array>
 			</dict>
 		</dict>
@@ -107,6 +114,7 @@
 				<key>public.filename-extension</key>
 				<array>
 					<string>cab</string>
+					<string>CAB</string>
 				</array>
 			</dict>
 		</dict>

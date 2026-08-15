@@ -11,6 +11,11 @@
 		292616C42934E0900021935D /* PreviewProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 292616C22934E0900021935C /* PreviewProvider.m */; };
 		29418C5228926CFD006C2475 /* QLJava.appex in CopyFiles */ = {isa = PBXBuildFile; fileRef = D71CE7A21B008D4C00D8A35F /* QLJava.appex */; };
 		29536645288C27B400A6E9A1 /* Tumble.png in Resources */ = {isa = PBXBuildFile; fileRef = 29536644288C27B400A6E9A1 /* Tumble.png */; };
+		29A000012B5163DD0091A405 /* ThumbnailProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 29A000012B5163DD0091A403 /* ThumbnailProvider.m */; };
+		29A000012B5163DD0091A406 /* qlt.sh in Resources */ = {isa = PBXBuildFile; fileRef = 29E290942B5163DD0091A49E /* qlt.sh */; };
+		29A000012B5163DD0091A407 /* logging.properties in Resources */ = {isa = PBXBuildFile; fileRef = 29B62A06293B973C0099E8D0 /* logging.properties */; };
+		29A000012B5163DD0091A408 /* QLJavaThumbnail.appex in CopyFiles */ = {isa = PBXBuildFile; fileRef = 29A000012B5163DD0091A401 /* QLJavaThumbnail.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		29A000012B5163DD0091A409 /* QLJavaThumbnail.appex in CopyFiles */ = {isa = PBXBuildFile; fileRef = 29A000012B5163DD0091A401 /* QLJavaThumbnail.appex */; };
 		29B62A07293B973C0099E8D0 /* logging.properties in Resources */ = {isa = PBXBuildFile; fileRef = 29B62A06293B973C0099E8D0 /* logging.properties */; };
 		29C0FFEE2934E0900021936B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29C0FFEE2934E09000219368 /* main.m */; };
 		29C0FFEE2934E0900021936C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 29C0FFEE2934E0900021936A /* AppDelegate.m */; };
@@ -19,6 +24,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		29A000012B5163DD0091A414 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D71CE7991B008D4C00D8A35F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29A000012B5163DD0091A40F;
+			remoteInfo = QLJavaThumbnail;
+		};
 		29C0FFEE2934E09000219362 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D71CE7991B008D4C00D8A35F /* Project object */;
@@ -37,12 +49,21 @@
 				29418C5228926CFD006C2475 /* QLJava.appex in CopyFiles */,
 			);
 		};
+		29A000012B5163DD0091A40E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			dstPath = /Users/nsano/Library/QuickLook;
+			dstSubfolder = None;
+			files = (
+				29A000012B5163DD0091A409 /* QLJavaThumbnail.appex in CopyFiles */,
+			);
+		};
 		29C0FFEE2934E09000219366 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			dstPath = "";
 			dstSubfolder = PlugIns;
 			files = (
 				29C0FFEE2934E0900021936D /* QLJava.appex in CopyFiles */,
+				29A000012B5163DD0091A408 /* QLJavaThumbnail.appex in CopyFiles */,
 			);
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -52,6 +73,10 @@
 		292616C22934E0900021935B /* PreviewProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreviewProvider.h; sourceTree = "<group>"; };
 		292616C22934E0900021935C /* PreviewProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreviewProvider.m; sourceTree = "<group>"; };
 		29536644288C27B400A6E9A1 /* Tumble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tumble.png; sourceTree = "<group>"; };
+		29A000012B5163DD0091A401 /* QLJavaThumbnail.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = QLJavaThumbnail.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		29A000012B5163DD0091A402 /* ThumbnailProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThumbnailProvider.h; sourceTree = "<group>"; };
+		29A000012B5163DD0091A403 /* ThumbnailProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThumbnailProvider.m; sourceTree = "<group>"; };
+		29A000012B5163DD0091A404 /* Thumbnail-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Thumbnail-Info.plist"; sourceTree = "<group>"; };
 		29B62A06293B973C0099E8D0 /* logging.properties */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = logging.properties; sourceTree = "<group>"; };
 		29C0FFEE2934E09000219367 /* QLJavaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QLJavaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		29C0FFEE2934E09000219368 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = QLJavaApp/main.m; sourceTree = "<group>"; };
@@ -64,6 +89,11 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		29A000012B5163DD0091A40B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
 		29C0FFEE2934E09000219364 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			files = (
@@ -101,6 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				D71CE7A21B008D4C00D8A35F /* QLJava.appex */,
+				29A000012B5163DD0091A401 /* QLJavaThumbnail.appex */,
 				29C0FFEE2934E09000219367 /* QLJavaApp.app */,
 			);
 			name = Products;
@@ -111,6 +142,8 @@
 			children = (
 				292616C22934E0900021935B /* PreviewProvider.h */,
 				292616C22934E0900021935C /* PreviewProvider.m */,
+				29A000012B5163DD0091A402 /* ThumbnailProvider.h */,
+				29A000012B5163DD0091A403 /* ThumbnailProvider.m */,
 				D71CE8341B00A4F400D8A35F /* IconAssets */,
 				D71CE7A51B008D4C00D8A35F /* Supporting Files */,
 				292616C22934E0900021935A /* ql.sh */,
@@ -124,6 +157,7 @@
 			isa = PBXGroup;
 			children = (
 				D71CE7A61B008D4C00D8A35F /* Info.plist */,
+				29A000012B5163DD0091A404 /* Thumbnail-Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -139,6 +173,11 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		29A000012B5163DD0091A40C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			files = (
+			);
+		};
 		D71CE79F1B008D4C00D8A35F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			files = (
@@ -147,6 +186,23 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		29A000012B5163DD0091A40F /* QLJavaThumbnail */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29A000012B5163DD0091A412 /* Build configuration list for PBXNativeTarget "QLJavaThumbnail" */;
+			buildPhases = (
+				29A000012B5163DD0091A40A /* Sources */,
+				29A000012B5163DD0091A40B /* Frameworks */,
+				29A000012B5163DD0091A40C /* Headers */,
+				29A000012B5163DD0091A40D /* Resources */,
+				29A000012B5163DD0091A40E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			name = QLJavaThumbnail;
+			productName = QLJavaThumbnail;
+			productReference = 29A000012B5163DD0091A401 /* QLJavaThumbnail.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		29C0FFEE2934E0900021935D /* QLJavaApp */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 29C0FFEE2934E0900021935E /* Build configuration list for PBXNativeTarget "QLJavaApp" */;
@@ -160,6 +216,7 @@
 			);
 			dependencies = (
 				29C0FFEE2934E09000219361 /* PBXTargetDependency */,
+				29A000012B5163DD0091A413 /* PBXTargetDependency */,
 			);
 			name = QLJavaApp;
 			productName = QLJavaApp;
@@ -193,6 +250,9 @@
 				LastUpgradeCheck = 2650;
 				ORGANIZATIONNAME = vavi;
 				TargetAttributes = {
+					29A000012B5163DD0091A40F = {
+						CreatedOnToolsVersion = 26.0;
+					};
 					D71CE7A11B008D4C00D8A35F = {
 						CreatedOnToolsVersion = 6.3.1;
 					};
@@ -212,12 +272,20 @@
 			projectRoot = "";
 			targets = (
 				D71CE7A11B008D4C00D8A35F /* QLJava */,
+				29A000012B5163DD0091A40F /* QLJavaThumbnail */,
 				29C0FFEE2934E0900021935D /* QLJavaApp */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		29A000012B5163DD0091A40D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+				29A000012B5163DD0091A406 /* qlt.sh in Resources */,
+				29A000012B5163DD0091A407 /* logging.properties in Resources */,
+			);
+		};
 		29C0FFEE2934E09000219365 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			files = (
@@ -235,6 +303,12 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		29A000012B5163DD0091A40A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+				29A000012B5163DD0091A405 /* ThumbnailProvider.m in Sources */,
+			);
+		};
 		29C0FFEE2934E09000219363 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			files = (
@@ -251,6 +325,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		29A000012B5163DD0091A413 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29A000012B5163DD0091A40F /* QLJavaThumbnail */;
+			targetProxy = 29A000012B5163DD0091A414 /* PBXContainerItemProxy */;
+		};
 		29C0FFEE2934E09000219361 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = D71CE7A11B008D4C00D8A35F /* QLJava */;
@@ -259,6 +338,48 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		29A000012B5163DD0091A410 /* Debug configuration for PBXNativeTarget "QLJavaThumbnail" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = QLJava/QLJava.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = YES;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "QLJava/Thumbnail-Info.plist";
+				INSTALL_PATH = "~/Library/QuickLook";
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 0.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vavi.QLJava.Thumbnail;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				WRAPPER_EXTENSION = appex;
+			};
+			name = Debug;
+		};
+		29A000012B5163DD0091A411 /* Release configuration for PBXNativeTarget "QLJavaThumbnail" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = QLJava/QLJava.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = YES;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "QLJava/Thumbnail-Info.plist";
+				INSTALL_PATH = "~/Library/QuickLook";
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 0.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vavi.QLJava.Thumbnail;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				WRAPPER_EXTENSION = appex;
+			};
+			name = Release;
+		};
 		29C0FFEE2934E0900021935F /* Debug configuration for PBXNativeTarget "QLJavaApp" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -466,6 +587,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		29A000012B5163DD0091A412 /* Build configuration list for PBXNativeTarget "QLJavaThumbnail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29A000012B5163DD0091A410 /* Debug configuration for PBXNativeTarget "QLJavaThumbnail" */,
+				29A000012B5163DD0091A411 /* Release configuration for PBXNativeTarget "QLJavaThumbnail" */,
+			);
+			defaultConfigurationName = Release;
+		};
 		29C0FFEE2934E0900021935E /* Build configuration list for PBXNativeTarget "QLJavaApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

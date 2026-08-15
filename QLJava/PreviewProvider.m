@@ -107,16 +107,38 @@ static void LogToFile(NSString *format, ...) {
             LogToFile(@"Task stdout:\n%@", outStr);
         }
         
-        LogToFile(@"Task exited with status: %d, output bytes: %lu", task.terminationStatus, (unsigned long)data.length);
+        QLPreviewReply *reply = nil;
+        if (data.length > 0) {
+            NSString *outStr = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
+            NSRange b64Start = [outStr rangeOfString:@"data:image/png;base64,"];
+            if (b64Start.location != NSNotFound) {
+                NSUInteger startIdx = b64Start.location + b64Start.length;
+                NSRange quoteRange = [outStr rangeOfString:@"\"" options:0 range:NSMakeRange(startIdx, outStr.length - startIdx)];
+                if (quoteRange.location != NSNotFound) {
+                    NSString *base64String = [outStr substringWithRange:NSMakeRange(startIdx, quoteRange.location - startIdx)];
+                    base64String = [base64String stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
+                    NSData *pngData = [[NSData alloc] initWithBase64EncodedString:base64String options:NSDataBase64DecodingIgnoreUnknownCharacters];
+                    if (pngData && pngData.length > 0) {
+                        NSImage *image = [[NSImage alloc] initWithData:pngData];
+                        CGSize imageSize = image ? image.size : CGSizeMake(800, 600);
+                        LogToFile(@"Preview identified as native PNG image (size: %.0fx%.0f)", imageSize.width, imageSize.height);
+                        reply = [[QLPreviewReply alloc] initWithDataOfContentType:UTTypePNG
+                                                                     contentSize:imageSize
+                                                              dataCreationBlock:^NSData * _Nullable(QLPreviewReply * _Nonnull reply, NSError * _Nullable __autoreleasing * _Nullable error) {
+                            return pngData;
+                        }];
+                    }
+                }
+            }
+        }
         
-        [pipe.fileHandleForReading closeFile];
-        [errPipe.fileHandleForReading closeFile];
-        
-        QLPreviewReply *reply = [[QLPreviewReply alloc] initWithDataOfContentType:UTTypeHTML
-                                                                     contentSize:CGSizeMake(800, 600)
-                                                            dataCreationBlock:^NSData * _Nullable(QLPreviewReply * _Nonnull reply, NSError * _Nullable __autoreleasing * _Nullable error) {
-            return data;
-        }];
+        if (!reply) {
+            reply = [[QLPreviewReply alloc] initWithDataOfContentType:UTTypeHTML
+                                                         contentSize:CGSizeMake(800, 600)
+                                                  dataCreationBlock:^NSData * _Nullable(QLPreviewReply * _Nonnull reply, NSError * _Nullable __autoreleasing * _Nullable error) {
+                return data;
+            }];
+        }
         
         completionHandler(reply, nil);
         LogToFile(@"--- QLJava Request Finished ---");
