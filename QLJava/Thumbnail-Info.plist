@@ -28,7 +28,23 @@
 				<string>com.microsoft.windows-metafile</string>
 				<string>com.microsoft.emf</string>
 				<string>dyn.ah62d4rv4ge81s5pg</string>
-				<string>dyn.ah62d4rv4ge80g4de</string>
+				<string>dyn.ah62d4rv4ge80n5pg</string>
+				<string>com.apple.disk-image-udif</string>
+				<string>dyn.ah62d4rv4ge8043p2</string>
+				<string>org.vavi.img</string>
+				<string>dyn.ah62d4rv4ge8042ph</string>
+				<string>org.vavi.mag</string>
+				<string>dyn.ah62d4rv4ge8042ppre</string>
+				<string>org.vavi.maki</string>
+				<string>dyn.ah62d4rv4ge80445m</string>
+				<string>org.vavi.mki</string>
+				<string>dyn.ah62d4rv4ge81a4k</string>
+				<string>org.vavi.pi</string>
+				<string>com.apple.pict</string>
+				<string>dyn.ah62d4rv4ge80455</string>
+				<string>org.vavi.pic</string>
+				<string>dyn.ah62d4rv4ge81y4pr</string>
+				<string>org.vavi.zim</string>
 			</array>
 			<key>QLThumbnailMinimumDimension</key>
 			<integer>16</integer>
@@ -69,6 +85,139 @@
 				<array>
 					<string>emf</string>
 					<string>EMF</string>
+				</array>
+			</dict>
+		</dict>
+		<dict>
+			<key>UTTypeConformsTo</key>
+			<array>
+				<string>public.data</string>
+				<string>public.image</string>
+			</array>
+			<key>UTTypeIdentifier</key>
+			<string>org.vavi.mag</string>
+			<key>UTTypeDescription</key>
+			<string>MAG Image</string>
+			<key>UTTypeTagSpecification</key>
+			<dict>
+				<key>public.filename-extension</key>
+				<array>
+					<string>mag</string>
+					<string>MAG</string>
+				</array>
+			</dict>
+		</dict>
+		<dict>
+			<key>UTTypeConformsTo</key>
+			<array>
+				<string>public.data</string>
+				<string>public.image</string>
+			</array>
+			<key>UTTypeIdentifier</key>
+			<string>org.vavi.maki</string>
+			<key>UTTypeDescription</key>
+			<string>MAKI Image</string>
+			<key>UTTypeTagSpecification</key>
+			<dict>
+				<key>public.filename-extension</key>
+				<array>
+					<string>maki</string>
+					<string>MAKI</string>
+				</array>
+			</dict>
+		</dict>
+		<dict>
+			<key>UTTypeConformsTo</key>
+			<array>
+				<string>public.data</string>
+				<string>public.image</string>
+			</array>
+			<key>UTTypeIdentifier</key>
+			<string>org.vavi.mki</string>
+			<key>UTTypeDescription</key>
+			<string>MKI Image</string>
+			<key>UTTypeTagSpecification</key>
+			<dict>
+				<key>public.filename-extension</key>
+				<array>
+					<string>mki</string>
+					<string>MKI</string>
+				</array>
+			</dict>
+		</dict>
+		<dict>
+			<key>UTTypeConformsTo</key>
+			<array>
+				<string>public.data</string>
+				<string>public.image</string>
+			</array>
+			<key>UTTypeIdentifier</key>
+			<string>org.vavi.pi</string>
+			<key>UTTypeDescription</key>
+			<string>PI Image</string>
+			<key>UTTypeTagSpecification</key>
+			<dict>
+				<key>public.filename-extension</key>
+				<array>
+					<string>pi</string>
+					<string>PI</string>
+				</array>
+			</dict>
+		</dict>
+		<dict>
+			<key>UTTypeConformsTo</key>
+			<array>
+				<string>public.data</string>
+				<string>public.image</string>
+			</array>
+			<key>UTTypeIdentifier</key>
+			<string>org.vavi.pic</string>
+			<key>UTTypeDescription</key>
+			<string>PIC Image</string>
+			<key>UTTypeTagSpecification</key>
+			<dict>
+				<key>public.filename-extension</key>
+				<array>
+					<string>pic</string>
+					<string>PIC</string>
+				</array>
+			</dict>
+		</dict>
+		<dict>
+			<key>UTTypeConformsTo</key>
+			<array>
+				<string>public.data</string>
+				<string>public.image</string>
+			</array>
+			<key>UTTypeIdentifier</key>
+			<string>org.vavi.zim</string>
+			<key>UTTypeDescription</key>
+			<string>ZIM Image</string>
+			<key>UTTypeTagSpecification</key>
+			<dict>
+				<key>public.filename-extension</key>
+				<array>
+					<string>zim</string>
+					<string>ZIM</string>
+				</array>
+			</dict>
+		</dict>
+		<dict>
+			<key>UTTypeConformsTo</key>
+			<array>
+				<string>public.data</string>
+				<string>public.image</string>
+			</array>
+			<key>UTTypeIdentifier</key>
+			<string>org.vavi.img</string>
+			<key>UTTypeDescription</key>
+			<string>IMG Image</string>
+			<key>UTTypeTagSpecification</key>
+			<dict>
+				<key>public.filename-extension</key>
+				<array>
+					<string>img</string>
+					<string>IMG</string>
 				</array>
 			</dict>
 		</dict>

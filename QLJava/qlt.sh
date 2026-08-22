@@ -7,7 +7,7 @@ MY_HOME=/Users/nsano
 export HOME="${MY_HOME}"
 
 case "$1" in
-  *.wmf | *.WMF | *.emf | *.EMF )
+  *.wmf | *.WMF | *.emf | *.EMF | *.img | *.IMG | *.mag | *.MAG | *.maki | *.MAKI | *.mki | *.MKI | *.pi | *.PI | *.pic | *.PIC | *.zim | *.ZIM )
     echo "<body>"
     echo "<pre>"
     ${MY_HOME}/bin/vavi_image_anigif "$1" "$2"

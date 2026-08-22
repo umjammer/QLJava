@@ -14,6 +14,7 @@
 		<string>(allow process-exec (subpath &quot;/bin&quot;))</string>
 		<string>(allow process-exec (subpath &quot;/usr/bin&quot;))</string>
 		<string>(allow process-exec (subpath &quot;/usr/local/bin&quot;))</string>
+		<string>(allow process-exec (subpath &quot;/usr/local/src/GCA&quot;))</string>
 		<string>(allow process-exec (literal &quot;/usr/libexec/java_home&quot;))</string>
 		<string>(allow process-exec (subpath &quot;/Users/nsano&quot;))</string>
 		<string>(allow process-fork)</string>

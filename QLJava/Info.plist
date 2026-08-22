@@ -28,14 +28,37 @@
 			<array>
 				<string>com.microsoft.wmf</string>
 				<string>com.microsoft.windows-metafile</string>
+				<string>com.microsoft.emf</string>
 				<string>dyn.ah62d4rv4ge81s5pg</string>
-				<string>dyn.ah62d4rv4ge80g4de</string>
+				<string>dyn.ah62d4rv4ge80n5pg</string>
 				<string>cx.c3.lha-archive</string>
 				<string>cx.c3.arj-archive</string>
 				<string>com.microsoft.cab</string>
-				<string>dyn.ah62d4rv4ge80ksb2</string>
-				<string>dyn.ah62d4rv4ge80c65bsk</string>
+				<string>cx.c3.gca-archive</string>
+				<string>dyn.ah62d4rv4ge80s25b</string>
+				<string>org.vavi.gca</string>
 				<string>org.mame.chd</string>
+				<string>dyn.ah62d4rv4ge80g4de</string>
+				<string>dyn.ah62d4rv4ge80ksb2</string>
+				<string>org.vavi.d88</string>
+				<string>dyn.ah62d4rv4ge80c65bsk</string>
+				<string>org.vavi.asar</string>
+				<string>com.apple.disk-image-udif</string>
+				<string>dyn.ah62d4rv4ge8043p2</string>
+				<string>org.vavi.img</string>
+				<string>dyn.ah62d4rv4ge8042ph</string>
+				<string>org.vavi.mag</string>
+				<string>dyn.ah62d4rv4ge8042ppre</string>
+				<string>org.vavi.maki</string>
+				<string>dyn.ah62d4rv4ge80445m</string>
+				<string>org.vavi.mki</string>
+				<string>dyn.ah62d4rv4ge81a4k</string>
+				<string>org.vavi.pi</string>
+				<string>com.apple.pict</string>
+				<string>dyn.ah62d4rv4ge80455</string>
+				<string>org.vavi.pic</string>
+				<string>dyn.ah62d4rv4ge81y4pr</string>
+				<string>org.vavi.zim</string>
 			</array>
 			<key>QLSupportsSearchableItems</key>
 			<true/>
@@ -59,6 +82,9 @@
 				<key>public.filename-extension</key>
 				<array>
 					<string>wmf</string>
+					<string>WMF</string>
+					<string>emf</string>
+					<string>EMF</string>
 				</array>
 			</dict>
 		</dict>
@@ -78,6 +104,250 @@
 				<key>public.filename-extension</key>
 				<array>
 					<string>chd</string>
+					<string>CHD</string>
+				</array>
+			</dict>
+		</dict>
+		<dict>
+			<key>UTTypeConformsTo</key>
+			<array>
+				<string>public.data</string>
+			</array>
+			<key>UTTypeIdentifier</key>
+			<string>cx.c3.lha-archive</string>
+			<key>UTTypeDescription</key>
+			<string>LHA Archive</string>
+			<key>UTTypeTagSpecification</key>
+			<dict>
+				<key>public.filename-extension</key>
+				<array>
+					<string>lha</string>
+					<string>LHA</string>
+					<string>lzh</string>
+					<string>LZH</string>
+				</array>
+			</dict>
+		</dict>
+		<dict>
+			<key>UTTypeConformsTo</key>
+			<array>
+				<string>public.data</string>
+			</array>
+			<key>UTTypeIdentifier</key>
+			<string>cx.c3.arj-archive</string>
+			<key>UTTypeDescription</key>
+			<string>ARJ Archive</string>
+			<key>UTTypeTagSpecification</key>
+			<dict>
+				<key>public.filename-extension</key>
+				<array>
+					<string>arj</string>
+					<string>ARJ</string>
+				</array>
+			</dict>
+		</dict>
+		<dict>
+			<key>UTTypeConformsTo</key>
+			<array>
+				<string>public.data</string>
+			</array>
+			<key>UTTypeIdentifier</key>
+			<string>com.microsoft.cab</string>
+			<key>UTTypeDescription</key>
+			<string>Microsoft Cabinet File</string>
+			<key>UTTypeTagSpecification</key>
+			<dict>
+				<key>public.filename-extension</key>
+				<array>
+					<string>cab</string>
+					<string>CAB</string>
+				</array>
+			</dict>
+		</dict>
+		<dict>
+			<key>UTTypeConformsTo</key>
+			<array>
+				<string>public.data</string>
+			</array>
+			<key>UTTypeIdentifier</key>
+			<string>cx.c3.gca-archive</string>
+			<key>UTTypeDescription</key>
+			<string>GCA Archive</string>
+			<key>UTTypeTagSpecification</key>
+			<dict>
+				<key>public.filename-extension</key>
+				<array>
+					<string>gca</string>
+					<string>GCA</string>
+				</array>
+			</dict>
+		</dict>
+		<dict>
+			<key>UTTypeConformsTo</key>
+			<array>
+				<string>public.data</string>
+			</array>
+			<key>UTTypeIdentifier</key>
+			<string>org.vavi.d88</string>
+			<key>UTTypeDescription</key>
+			<string>D88 Disk Image</string>
+			<key>UTTypeTagSpecification</key>
+			<dict>
+				<key>public.filename-extension</key>
+				<array>
+					<string>d88</string>
+					<string>D88</string>
+				</array>
+			</dict>
+		</dict>
+		<dict>
+			<key>UTTypeConformsTo</key>
+			<array>
+				<string>public.data</string>
+			</array>
+			<key>UTTypeIdentifier</key>
+			<string>org.vavi.asar</string>
+			<key>UTTypeDescription</key>
+			<string>Electron ASAR Archive</string>
+			<key>UTTypeTagSpecification</key>
+			<dict>
+				<key>public.filename-extension</key>
+				<array>
+					<string>asar</string>
+					<string>ASAR</string>
+				</array>
+			</dict>
+		</dict>
+		<dict>
+			<key>UTTypeConformsTo</key>
+			<array>
+				<string>public.data</string>
+				<string>public.image</string>
+			</array>
+			<key>UTTypeIdentifier</key>
+			<string>org.vavi.mag</string>
+			<key>UTTypeDescription</key>
+			<string>MAG Image</string>
+			<key>UTTypeTagSpecification</key>
+			<dict>
+				<key>public.filename-extension</key>
+				<array>
+					<string>mag</string>
+					<string>MAG</string>
+				</array>
+			</dict>
+		</dict>
+		<dict>
+			<key>UTTypeConformsTo</key>
+			<array>
+				<string>public.data</string>
+				<string>public.image</string>
+			</array>
+			<key>UTTypeIdentifier</key>
+			<string>org.vavi.maki</string>
+			<key>UTTypeDescription</key>
+			<string>MAKI Image</string>
+			<key>UTTypeTagSpecification</key>
+			<dict>
+				<key>public.filename-extension</key>
+				<array>
+					<string>maki</string>
+					<string>MAKI</string>
+				</array>
+			</dict>
+		</dict>
+		<dict>
+			<key>UTTypeConformsTo</key>
+			<array>
+				<string>public.data</string>
+				<string>public.image</string>
+			</array>
+			<key>UTTypeIdentifier</key>
+			<string>org.vavi.mki</string>
+			<key>UTTypeDescription</key>
+			<string>MKI Image</string>
+			<key>UTTypeTagSpecification</key>
+			<dict>
+				<key>public.filename-extension</key>
+				<array>
+					<string>mki</string>
+					<string>MKI</string>
+				</array>
+			</dict>
+		</dict>
+		<dict>
+			<key>UTTypeConformsTo</key>
+			<array>
+				<string>public.data</string>
+				<string>public.image</string>
+			</array>
+			<key>UTTypeIdentifier</key>
+			<string>org.vavi.pi</string>
+			<key>UTTypeDescription</key>
+			<string>PI Image</string>
+			<key>UTTypeTagSpecification</key>
+			<dict>
+				<key>public.filename-extension</key>
+				<array>
+					<string>pi</string>
+					<string>PI</string>
+				</array>
+			</dict>
+		</dict>
+		<dict>
+			<key>UTTypeConformsTo</key>
+			<array>
+				<string>public.data</string>
+				<string>public.image</string>
+			</array>
+			<key>UTTypeIdentifier</key>
+			<string>org.vavi.pic</string>
+			<key>UTTypeDescription</key>
+			<string>PIC Image</string>
+			<key>UTTypeTagSpecification</key>
+			<dict>
+				<key>public.filename-extension</key>
+				<array>
+					<string>pic</string>
+					<string>PIC</string>
+				</array>
+			</dict>
+		</dict>
+		<dict>
+			<key>UTTypeConformsTo</key>
+			<array>
+				<string>public.data</string>
+				<string>public.image</string>
+			</array>
+			<key>UTTypeIdentifier</key>
+			<string>org.vavi.zim</string>
+			<key>UTTypeDescription</key>
+			<string>ZIM Image</string>
+			<key>UTTypeTagSpecification</key>
+			<dict>
+				<key>public.filename-extension</key>
+				<array>
+					<string>zim</string>
+					<string>ZIM</string>
+				</array>
+			</dict>
+		</dict>
+		<dict>
+			<key>UTTypeConformsTo</key>
+			<array>
+				<string>public.data</string>
+				<string>public.image</string>
+			</array>
+			<key>UTTypeIdentifier</key>
+			<string>org.vavi.img</string>
+			<key>UTTypeDescription</key>
+			<string>IMG Image</string>
+			<key>UTTypeTagSpecification</key>
+			<dict>
+				<key>public.filename-extension</key>
+				<array>
+					<string>img</string>
+					<string>IMG</string>
 				</array>
 			</dict>
 		</dict>
