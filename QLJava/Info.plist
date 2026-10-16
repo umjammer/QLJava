@@ -32,12 +32,20 @@
 				<string>dyn.ah62d4rv4ge81s5pg</string>
 				<string>dyn.ah62d4rv4ge80n5pg</string>
 				<string>cx.c3.lha-archive</string>
+				<string>jp.coo.cooviewer.lha</string>
+				<string>org.7-zip.lha-archive</string>
+				<string>public.archive.lha</string>
 				<string>cx.c3.arj-archive</string>
+				<string>org.7-zip.arj-archive</string>
+				<string>public.archive.arj</string>
 				<string>com.microsoft.cab</string>
+				<string>com.microsoft.cab-archive</string>
+				<string>public.archive.cab</string>
 				<string>cx.c3.gca-archive</string>
 				<string>dyn.ah62d4rv4ge80s25b</string>
 				<string>org.vavi.gca</string>
 				<string>org.mame.chd</string>
+				<string>public.chd-image</string>
 				<string>dyn.ah62d4rv4ge80g4de</string>
 				<string>dyn.ah62d4rv4ge80ksb2</string>
 				<string>org.vavi.d88</string>
