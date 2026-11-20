@@ -74,7 +74,7 @@
 		<key>NSExtensionPointIdentifier</key>
 		<string>com.apple.quicklook.preview</string>
 		<key>NSExtensionPrincipalClass</key>
-		<string>PreviewProvider</string>
+		<string>$(PRODUCT_MODULE_NAME).PreviewProvider</string>
 	</dict>
 	<key>UTExportedTypeDeclarations</key>
 	<array>
