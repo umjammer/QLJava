@@ -32,11 +32,13 @@ enum Log {
 enum ScriptError: LocalizedError {
     case scriptNotFound(String)
     case noImage
+    case noPreview
 
     var errorDescription: String? {
         switch self {
         case .scriptNotFound(let name): "\(name) script not found in resources bundle."
         case .noImage: "Could not parse image thumbnail output."
+        case .noPreview: "The script produced no preview output."
         }
     }
 }
