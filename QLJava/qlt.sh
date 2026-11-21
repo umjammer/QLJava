@@ -3,7 +3,7 @@
 export PATH="/opt/homebrew/bin:/usr/local/bin:$PATH"
 export MAVEN_OPTS="-Djansi.passthrough=true -Dstyle.color=never $MAVEN_OPTS"
 
-MY_HOME=/Users/nsano
+MY_HOME="${QLJAVA_HOME:-$HOME}"
 export HOME="${MY_HOME}"
 
 case "$1" in

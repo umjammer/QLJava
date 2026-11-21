@@ -8,7 +8,7 @@
 	<true/>
 	<key>com.apple.security.temporary-exception.sbpl</key>
 	<array>
-		<string>(allow process-exec (subpath &quot;/Users/nsano/Library/Containers/com.vavi.QLJava.Preview/Data/tmp&quot;))</string>
+		<string>(allow process-exec (subpath &quot;$(HOME)/Library/Containers/com.vavi.QLJava.Preview/Data/tmp&quot;))</string>
 		<string>(allow process-exec (subpath &quot;/Library/Java&quot;))</string>
 		<string>(allow process-exec (subpath &quot;/opt/homebrew&quot;))</string>
 		<string>(allow process-exec (subpath &quot;/bin&quot;))</string>
@@ -16,16 +16,16 @@
 		<string>(allow process-exec (subpath &quot;/usr/local/bin&quot;))</string>
 		<string>(allow process-exec (subpath &quot;/usr/local/src/GCA&quot;))</string>
 		<string>(allow process-exec (literal &quot;/usr/libexec/java_home&quot;))</string>
-		<string>(allow process-exec (subpath &quot;/Users/nsano&quot;))</string>
+		<string>(allow process-exec (subpath &quot;$(HOME)&quot;))</string>
 		<string>(allow process-fork)</string>
 		<string>(allow file-read* (subpath &quot;/&quot;))</string>
-		<string>(allow file-write* (subpath &quot;/Users/nsano&quot;))</string>
+		<string>(allow file-write* (subpath &quot;$(HOME)&quot;))</string>
 		<string>(allow file-write* (subpath &quot;/private/tmp&quot;))</string>
 		<string>(allow file-write* (subpath &quot;/private/var&quot;))</string>
 	</array>
 	<key>com.apple.security.temporary-exception.files.absolute-path.read-write</key>
 	<array>
-		<string>/Users/nsano</string>
+		<string>$(HOME)</string>
 		<string>/private/tmp</string>
 		<string>/private/var</string>
 	</array>

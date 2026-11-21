@@ -13,27 +13,27 @@ A Quick Look plugin for Swift files. Inspired by [QLMarkdown](https://github.com
 
 ## Installation
 
-### Homebrew
+Requires macOS 26+ and Xcode.
 
-`brew install Caskroom/cask/qlswift`
+```shell
+./install.sh            # or: make install
+```
 
-### Manually
+This builds `QLJavaApp.app`, installs it to `~/Applications` (override with `PREFIX=/Applications`),
+registers the embedded Quick Look extensions (`com.vavi.QLJava.Preview`, `com.vavi.QLJava.Thumbnail`)
+with LaunchServices / `pluginkit`, enables them, removes stale duplicate registrations
+(Xcode DerivedData, old build directories, legacy copies in `~/Library/QuickLook`) and resets the Quick Look cache.
 
-Download the [latest](https://github.com/lexrus/QLSwift/releases/tag/0.0.1) release from 
-<https://github.com/lexrus/QLSwift/releases>
+```shell
+./install.sh status     # show whether the extensions are registered and enabled
+./install.sh uninstall  # unregister and move the app to the trash
+```
 
-Simply copy QLSwift.qlgenerator to `~/Library/QuickLook` or `/Library/QuickLook`.
+Launching `QLJavaApp.app` also re-registers the extensions and shows their status.
+If they are disabled, enable them in *System Settings → General → Login Items & Extensions → Quick Look*.
 
-You should run `qlmanage -r` in terminal in case the Quick Lock cache was not flushed.
-
-To uninstall, drag QLSwift into the trash.
-
-**Note:** *Quick Look doesn't allow selecting text. If you want to select the text in the markdown preview, you will 
-need to enable text selection in Quick Look by running the following in Terminal:*
-
-````bash
-defaults write com.apple.finder QLEnableTextSelection -bool TRUE; killall Finder
-````
+The extensions run `ql.sh` (preview) and `qlt.sh` (thumbnail), which call helper commands in `~/bin`
+(`vavi_util_archive`, `vavi_image_anigif`, `chdman`). Logs go to `/tmp/qljava.log`.
 
 ## TODO
 

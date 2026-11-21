@@ -8,19 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		292616C32934E0900021935A /* ql.sh in Resources */ = {isa = PBXBuildFile; fileRef = 292616C22934E0900021935A /* ql.sh */; };
-		292616C42934E0900021935D /* PreviewProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 292616C22934E0900021935C /* PreviewProvider.m */; };
-		29418C5228926CFD006C2475 /* QLJava.appex in CopyFiles */ = {isa = PBXBuildFile; fileRef = D71CE7A21B008D4C00D8A35F /* QLJava.appex */; };
+		292616C42934E0900021935D /* PreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292616C22934E0900021935C /* PreviewViewController.swift */; };
 		29536645288C27B400A6E9A1 /* Tumble.png in Resources */ = {isa = PBXBuildFile; fileRef = 29536644288C27B400A6E9A1 /* Tumble.png */; };
-		29A000012B5163DD0091A405 /* ThumbnailProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 29A000012B5163DD0091A403 /* ThumbnailProvider.m */; };
+		29A000012B5163DD0091A405 /* ThumbnailProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A000012B5163DD0091A403 /* ThumbnailProvider.swift */; };
 		29A000012B5163DD0091A406 /* qlt.sh in Resources */ = {isa = PBXBuildFile; fileRef = 29E290942B5163DD0091A49E /* qlt.sh */; };
 		29A000012B5163DD0091A407 /* logging.properties in Resources */ = {isa = PBXBuildFile; fileRef = 29B62A06293B973C0099E8D0 /* logging.properties */; };
 		29A000012B5163DD0091A408 /* QLJavaThumbnail.appex in CopyFiles */ = {isa = PBXBuildFile; fileRef = 29A000012B5163DD0091A401 /* QLJavaThumbnail.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		29A000012B5163DD0091A409 /* QLJavaThumbnail.appex in CopyFiles */ = {isa = PBXBuildFile; fileRef = 29A000012B5163DD0091A401 /* QLJavaThumbnail.appex */; };
 		29B62A07293B973C0099E8D0 /* logging.properties in Resources */ = {isa = PBXBuildFile; fileRef = 29B62A06293B973C0099E8D0 /* logging.properties */; };
-		29C0FFEE2934E0900021936B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29C0FFEE2934E09000219368 /* main.m */; };
-		29C0FFEE2934E0900021936C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 29C0FFEE2934E0900021936A /* AppDelegate.m */; };
+		29C0FFEE2934E0900021936C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C0FFEE2934E0900021936A /* AppDelegate.swift */; };
 		29C0FFEE2934E0900021936D /* QLJava.appex in CopyFiles */ = {isa = PBXBuildFile; fileRef = D71CE7A21B008D4C00D8A35F /* QLJava.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		29E290952B5163DD0091A49E /* qlt.sh in Resources */ = {isa = PBXBuildFile; fileRef = 29E290942B5163DD0091A49E /* qlt.sh */; };
+		29F5C0DE2C00000000000002 /* ScriptRunner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F5C0DE2C00000000000001 /* ScriptRunner.swift */; };
+		29F5C0DE2C00000000000003 /* ScriptRunner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F5C0DE2C00000000000001 /* ScriptRunner.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,22 +40,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		29418C5128926C40006C2475 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			dstPath = /Users/nsano/Library/QuickLook;
-			dstSubfolder = None;
-			files = (
-				29418C5228926CFD006C2475 /* QLJava.appex in CopyFiles */,
-			);
-		};
-		29A000012B5163DD0091A40E /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			dstPath = /Users/nsano/Library/QuickLook;
-			dstSubfolder = None;
-			files = (
-				29A000012B5163DD0091A409 /* QLJavaThumbnail.appex in CopyFiles */,
-			);
-		};
 		29C0FFEE2934E09000219366 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			dstPath = "";
@@ -70,22 +53,19 @@
 
 /* Begin PBXFileReference section */
 		292616C22934E0900021935A /* ql.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = ql.sh; sourceTree = "<group>"; };
-		292616C22934E0900021935B /* PreviewProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreviewProvider.h; sourceTree = "<group>"; };
-		292616C22934E0900021935C /* PreviewProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreviewProvider.m; sourceTree = "<group>"; };
+		292616C22934E0900021935C /* PreviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewViewController.swift; sourceTree = "<group>"; };
 		29536644288C27B400A6E9A1 /* Tumble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tumble.png; sourceTree = "<group>"; };
 		29A000012B5163DD0091A401 /* QLJavaThumbnail.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = QLJavaThumbnail.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		29A000012B5163DD0091A402 /* ThumbnailProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThumbnailProvider.h; sourceTree = "<group>"; };
-		29A000012B5163DD0091A403 /* ThumbnailProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThumbnailProvider.m; sourceTree = "<group>"; };
+		29A000012B5163DD0091A403 /* ThumbnailProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThumbnailProvider.swift; sourceTree = "<group>"; };
 		29A000012B5163DD0091A404 /* Thumbnail-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Thumbnail-Info.plist"; sourceTree = "<group>"; };
 		29B62A06293B973C0099E8D0 /* logging.properties */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = logging.properties; sourceTree = "<group>"; };
 		29C0FFEE2934E09000219367 /* QLJavaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QLJavaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		29C0FFEE2934E09000219368 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = QLJavaApp/main.m; sourceTree = "<group>"; };
-		29C0FFEE2934E09000219369 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = QLJavaApp/AppDelegate.h; sourceTree = "<group>"; };
-		29C0FFEE2934E0900021936A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = QLJavaApp/AppDelegate.m; sourceTree = "<group>"; };
+		29C0FFEE2934E0900021936A /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = QLJavaApp/AppDelegate.swift; sourceTree = "<group>"; };
 		29C0FFEE2934E0900021936E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = QLJavaApp/Info.plist; sourceTree = "<group>"; };
 		29E290942B5163DD0091A49E /* qlt.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = qlt.sh; sourceTree = "<group>"; };
 		D71CE7A21B008D4C00D8A35F /* QLJava.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = QLJava.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		D71CE7A61B008D4C00D8A35F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29F5C0DE2C00000000000001 /* ScriptRunner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScriptRunner.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,9 +90,7 @@
 		29C0FFEE2934E09000219371 /* QLJava */ = {
 			isa = PBXGroup;
 			children = (
-				29C0FFEE2934E09000219369 /* AppDelegate.h */,
-				29C0FFEE2934E0900021936A /* AppDelegate.m */,
-				29C0FFEE2934E09000219368 /* main.m */,
+				29C0FFEE2934E0900021936A /* AppDelegate.swift */,
 				29C0FFEE2934E0900021936E /* Info.plist */,
 			);
 			path = QLJava;
@@ -140,10 +118,9 @@
 		D71CE7A41B008D4C00D8A35F /* QLJava */ = {
 			isa = PBXGroup;
 			children = (
-				292616C22934E0900021935B /* PreviewProvider.h */,
-				292616C22934E0900021935C /* PreviewProvider.m */,
-				29A000012B5163DD0091A402 /* ThumbnailProvider.h */,
-				29A000012B5163DD0091A403 /* ThumbnailProvider.m */,
+				29F5C0DE2C00000000000001 /* ScriptRunner.swift */,
+				292616C22934E0900021935C /* PreviewViewController.swift */,
+				29A000012B5163DD0091A403 /* ThumbnailProvider.swift */,
 				D71CE8341B00A4F400D8A35F /* IconAssets */,
 				D71CE7A51B008D4C00D8A35F /* Supporting Files */,
 				292616C22934E0900021935A /* ql.sh */,
@@ -173,16 +150,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		29A000012B5163DD0091A40C /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			files = (
-			);
-		};
-		D71CE79F1B008D4C00D8A35F /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			files = (
-			);
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -192,9 +159,7 @@
 			buildPhases = (
 				29A000012B5163DD0091A40A /* Sources */,
 				29A000012B5163DD0091A40B /* Frameworks */,
-				29A000012B5163DD0091A40C /* Headers */,
 				29A000012B5163DD0091A40D /* Resources */,
-				29A000012B5163DD0091A40E /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -229,9 +194,7 @@
 			buildPhases = (
 				D71CE79D1B008D4C00D8A35F /* Sources */,
 				D71CE79E1B008D4C00D8A35F /* Frameworks */,
-				D71CE79F1B008D4C00D8A35F /* Headers */,
 				D71CE7A01B008D4C00D8A35F /* Resources */,
-				29418C5128926C40006C2475 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -306,20 +269,21 @@
 		29A000012B5163DD0091A40A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			files = (
-				29A000012B5163DD0091A405 /* ThumbnailProvider.m in Sources */,
+				29F5C0DE2C00000000000002 /* ScriptRunner.swift in Sources */,
+				29A000012B5163DD0091A405 /* ThumbnailProvider.swift in Sources */,
 			);
 		};
 		29C0FFEE2934E09000219363 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			files = (
-				29C0FFEE2934E0900021936B /* main.m in Sources */,
-				29C0FFEE2934E0900021936C /* AppDelegate.m in Sources */,
+				29C0FFEE2934E0900021936C /* AppDelegate.swift in Sources */,
 			);
 		};
 		D71CE79D1B008D4C00D8A35F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			files = (
-				292616C42934E0900021935D /* PreviewProvider.m in Sources */,
+				29F5C0DE2C00000000000003 /* ScriptRunner.swift in Sources */,
+				292616C42934E0900021935D /* PreviewViewController.swift in Sources */,
 			);
 		};
 /* End PBXSourcesBuildPhase section */
@@ -347,9 +311,8 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEAD_CODE_STRIPPING = YES;
-				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "QLJava/Thumbnail-Info.plist";
-				INSTALL_PATH = "~/Library/QuickLook";
+				SKIP_INSTALL = YES;
 				MACOSX_DEPLOYMENT_TARGET = 26.0;
 				MARKETING_VERSION = 0.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.vavi.QLJava.Thumbnail;
@@ -368,9 +331,8 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEAD_CODE_STRIPPING = YES;
-				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "QLJava/Thumbnail-Info.plist";
-				INSTALL_PATH = "~/Library/QuickLook";
+				SKIP_INSTALL = YES;
 				MACOSX_DEPLOYMENT_TARGET = 26.0;
 				MARKETING_VERSION = 0.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.vavi.QLJava.Thumbnail;
@@ -462,6 +424,8 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -478,6 +442,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -529,6 +494,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -541,14 +507,8 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEAD_CODE_STRIPPING = YES;
-				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = QLJava/Info.plist;
-				INSTALL_PATH = "~/Library/QuickLook";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(LOCAL_LIBRARY_DIR)/Java/JavaVirtualMachines/jdk1.8.0_341.jdk/Contents/Home/jre/lib",
-					"$(LOCAL_LIBRARY_DIR)/Java/JavaVirtualMachines/jdk1.8.0_341.jdk/Contents/Home/jre/lib/server",
-				);
+				SKIP_INSTALL = YES;
 				MACOSX_DEPLOYMENT_TARGET = 26.0;
 				MARKETING_VERSION = 0.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.vavi.QLJava.Preview;
@@ -567,14 +527,8 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEAD_CODE_STRIPPING = YES;
-				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = QLJava/Info.plist;
-				INSTALL_PATH = "~/Library/QuickLook";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(LOCAL_LIBRARY_DIR)/Java/JavaVirtualMachines/jdk1.8.0_341.jdk/Contents/Home/jre/lib",
-					"$(LOCAL_LIBRARY_DIR)/Java/JavaVirtualMachines/jdk1.8.0_341.jdk/Contents/Home/jre/lib/server",
-				);
+				SKIP_INSTALL = YES;
 				MACOSX_DEPLOYMENT_TARGET = 26.0;
 				MARKETING_VERSION = 0.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.vavi.QLJava.Preview;
